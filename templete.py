@@ -25,13 +25,13 @@ list_of_files = [
     f'{project_name}/pipeline/training_pipeline.py',
     f'{project_name}/utils/__init__.py',
     f'{project_name}/utils/main_utils.py',
+    'research/trials.ipynb',
     'templete/index.html',
     'app.py',
     'Dockerfile',
     'requirements.txt',
-    'setup.py',
-    'tests.py'
-]
+    'setup.py'
+    ]
 
 for i in list_of_files:
     filepath = Path(i)  # this function to detect the OS and then convert the path in the way that the OS can understand
