@@ -4,9 +4,8 @@ notebook==6.5.4
 gdown
 flask-cors
 flask
-
-
-# YOLOv5 requirements
+from_root
+# YOLOv5 requirements (modified for TensorFlow)
 # Usage: pip install -r requirements.txt
 
 # Base ------------------------------------------------------------------------
@@ -19,15 +18,13 @@ psutil  # system resources
 PyYAML>=5.3.1
 requests>=2.23.0
 scipy>=1.4.1
-thop>=0.1.1  # FLOPs computation
-torch>=1.7.0  # see https://pytorch.org/get-started/locally (recommended)
-torchvision>=0.8.1
+tensorflow>=2.4.0  # Replacing torch with tensorflow
 tqdm>=4.64.0
 ultralytics>=8.0.111
 # protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
 
 # Logging ---------------------------------------------------------------------
-# tensorboard>=2.4.1
+# tensorboard>=2.4.1  # Now using TensorFlow's built-in tensorboard support
 # clearml>=1.2.0
 # comet
 
@@ -42,7 +39,7 @@ seaborn>=0.11.0
 # nvidia-pyindex  # TensorRT export
 # nvidia-tensorrt  # TensorRT export
 # scikit-learn<=1.1.2  # CoreML quantization
-# tensorflow>=2.4.0  # TF exports (-cpu, -aarch64, -macos)
+# tensorflow>=2.4.0  # Already added TensorFlow above
 # tensorflowjs>=3.9.0  # TF.js export
 # openvino-dev  # OpenVINO export
 
@@ -55,6 +52,5 @@ setuptools>=65.5.1 # Snyk vulnerability fix
 # mss  # screenshots
 # albumentations>=1.0.3
 # pycocotools>=2.0.6  # COCO mAP
-
 
 -e .

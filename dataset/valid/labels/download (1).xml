@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>download (1).jpg</filename>
+	<path>E:\practical\End_to_End\End_ti_end_waste_detection_using_YOLOv5\dataset\valid\images\download (1).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>264</width>
+		<height>191</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>51</ymin>
+			<xmax>234</xmax>
+			<ymax>137</ymax>
+		</bndbox>
+	</object>
+</annotation>

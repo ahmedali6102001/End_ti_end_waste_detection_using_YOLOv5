@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 13
+
+names: ['banana', 'chilli', 'drinkcan', 'drinkpack', 'foodcan', 'lettuce', 'paperbag', 'plasticbag', 'plasticbottle', 'plasticcontainer', 'sweetpotato', 'teabag', 'tissueroll']
